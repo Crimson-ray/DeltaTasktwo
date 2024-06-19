@@ -53,7 +53,7 @@ window.addEventListener("load",function(){
     const zombieImages = [];
     const zombies=[]
     const blockImage=new Image()
-    blockImage.src="C:\\Users\\jd200\\Downloads\\stone.jpg"
+    blockImage.src="stone.jpg"
     const blocks=[]
     let blockPositions=[CANVAS_WIDTH/2-300,CANVAS_WIDTH/2-200,CANVAS_WIDTH/2+130,CANVAS_WIDTH/2+230]
     let zombieWaveInterval=7000;
@@ -63,7 +63,7 @@ window.addEventListener("load",function(){
     let scores=[]
     const playerImage=new Image();
     const powerups=new Image()
-    powerups.src="C:\\Users\\jd200\\Downloads\\My first design 9.png"
+    powerups.src="My first design 9.png"
     playerImage.src="flatboy/png/Idle (1).png"
     const pumpkins=[]
     const pumpkinIdleImage=new Image()
@@ -150,7 +150,7 @@ pumpkinWalkArray.forEach(src => {
         playerJumpImages.push(img);
     });
  const explosionImage=new Image()
- explosionImage.src="C:\\Users\\jd200\\Downloads\\My first design 17.png" 
+ explosionImage.src="My first design 17.png" 
     // Input Handler
         class InputHandler {
             constructor() {
@@ -663,7 +663,7 @@ pumpkinWalkArray.forEach(src => {
         zombieImages.push(img);
     });
     const bombImage=new Image()
-    bombImage.src="C:\\Users\\jd200\\Downloads\\My first design 16.png"
+    bombImage.src="My first design 16.png"
     class Bomb {
         constructor() {
             this.height = 40;
