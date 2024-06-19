@@ -1,0 +1,29 @@
+["https://i.ibb.co/TYckNhS/Walk-1.png","https://i.ibb.co/z4yf2m9/Walk-2.png","https://i.ibb.co/xsqYRvr/Walk-3.png" ,"https://i.ibb.co/rttKZCB/Walk-4.png","https://i.ibb.co/HCk8wzp/Walk-5.png","https://i.ibb.co/vVLwhgC/Walk-6.png","https://i.ibb.co/m0PTYzB/Walk-7.png","https://i.ibb.co/W2mnNLm/Walk-8.png" ,"https://i.ibb.co/dWP4FQW/Walk-9.png","https://i.ibb.co/bbHyTbj/Walk-10.png"];
+[
+    "https://i.ibb.co/1KzXhfZ/Walk-1.png",
+    "https://i.ibb.co/yQjjhJj/Walk-2.png",
+    "https://i.ibb.co/KVmgp2m/Walk-3.png",
+    "https://i.ibb.co/pQtgJn8/Walk-4.png",
+    "https://i.ibb.co/BNbDXgS/Walk-5.png",
+    "https://i.ibb.co/MZv1zqp/Walk-6.png",
+    "https://i.ibb.co/8zdsTtS/Walk-7.png",
+    "https://i.ibb.co/m532jtg/Walk-8.png",
+    "https://i.ibb.co/jrCntZF/Walk-9.png",
+    "https://i.ibb.co/MD13xP6/Walk-10.png",
+    "https://i.ibb.co/RpZ6w3W/Walk-11.png",
+    "https://i.ibb.co/09g6cnj/Walk-12.png",
+    "https://i.ibb.co/NW4mC6Q/Walk-13.png",
+    "https://i.ibb.co/VWbXxGH/Walk-14.png",
+    "https://i.ibb.co/WBFn49Q/Walk-15.png",]
+    [
+        "https://i.ibb.co/09h8vQK/Walk-1.png",
+        "https://i.ibb.co/VDzg7n1/Walk-2.png", 
+        "https://i.ibb.co/5B5rrXh/Walk-3.png", 
+        "https://i.ibb.co/XYQvLfm/Walk-4.png", 
+        "https://i.ibb.co/Syx9Hm1/Walk-5.png", 
+        "https://i.ibb.co/Pm1GNr4/Walk-6.png", 
+        "https://i.ibb.co/5kJK017/Walk-7.png", 
+        "https://i.ibb.co/Dg9kPWh/Walk-8.png", 
+        "https://i.ibb.co/zPdN1QP/Walk-9.png", 
+        "https://i.ibb.co/FXQ8nSJ/Walk-10.png" 
+            ]

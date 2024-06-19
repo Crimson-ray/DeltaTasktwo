@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Creepster', cursive;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 1.5em;
+    z-index: 1000;
+    
+}
+input{
+    border: 2px solid #ff0000; 
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    background-color: rgba(100, 0, 0, 0.7);
+    color: white;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000000;
+    box-shadow: 0 0 10px #ff0000;
+    outline:none;
+    transition: border 0.5s,box-shadow 0.5s;
+}
+input:focus {
+    border: 2px solid #ff4500;
+    box-shadow: 0 0 20px #ff4500;
+}
+
+#submit{
+    background-color:rgba(230, 23, 23, 0.5);
+    font-family: 'Creepster', cursive;
+    letter-spacing: 2px;
+    width:100px;
+    height:30px;
+    color:white;
+    margin:20px;
+}
+#submit:hover{
+    background-color: rgba(255, 0, 0, 0.9); 
+    box-shadow: 0 0 20px rgb(242, 139, 139);
+}
+#submit:disabled{
+    background-color: rgba(100, 100, 100, 0.5); 
+    box-shadow:none;
+}
+.controls{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,0);
+}
+.control-button {
+    background-color: rgba(230, 23, 23, 0.5);
+    font-family: 'Creepster', cursive;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin: 20px;
+    border: none;
+    text-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.control-button:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+    box-shadow: 0 0 20px rgb(242, 139, 139);
+}
+#canvas{
+    border:2px solid black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    width: 1000px;
+    background-image: url("https://i.ibb.co/k8ZgThQ/c6ruxd5-B54t-SV2-CAUFVqs-transformed.png" );
+    background-size: cover;
+    z-index:-1;
+}
+#gameover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: #ff0000; 
+    font-size: 2em;
+    font-family: 'Creepster', cursive; 
+    z-index: 1000;
+    text-shadow: 2px 2px 8px #000000;
+    animation: fadeInBackground 3s ease-in-out;
+}
+
+#gameover p {
+    font-size: 30px;;
+    margin: 5px 0;
+    color: #ff6666; 
+}
+.restart{
+    background-color:rgba(230, 23, 23, 0.5);
+    font-family: 'Creepster', cursive;
+    letter-spacing: 2px;
+    width:100px;
+    height:30px;
+    color:white;
+    margin:20px;
+  }
+.restart:hover{
+    background-color: rgba(255, 0, 0, 0.9); 
+    box-shadow: 0 0 20px rgb(242, 139, 139);
+}
