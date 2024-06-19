@@ -64,22 +64,21 @@ window.addEventListener("load",function(){
     const playerImage=new Image();
     const powerups=new Image()
     powerups.src="C:\\Users\\jd200\\Downloads\\My first design 9.png"
-    playerImage.src="C:\\Users\\jd200\\Downloads\\flatboy\\png\\Idle (1).png"
+    playerImage.src="flatboy/png/Idle (1).png"
     const pumpkins=[]
     const pumpkinIdleImage=new Image()
-    pumpkinIdleImage.src="C:\\Users\\jd200\\Downloads\\jackfree\\png\\Idle (1).png"
+    pumpkinIdleImage.src="jackfree/png/Idle (1).png"
     const pumpkinWalkArray=[
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (1).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (2).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (3).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (4).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (5).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (6).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (7).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (8).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (9).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (10).png"
-    ]
+"jackfree/png/Walk (1).png",
+"jackfree/png/Walk (2).png",
+"jackfree/png/Walk (3).png",
+"jackfree/png/Walk (4).png",
+"jackfree/png/Walk (5).png",
+"jackfree/png/Walk (6).png",
+"jackfree/png/Walk (7).png",
+"jackfree/png/Walk (8).png",
+"jackfree/png/Walk (9).png",
+"jackfree/png/Walk (10).png" ]
 const pumpkinWalkImages=[]
 pumpkinWalkArray.forEach(src => {
     const img = new Image();
@@ -105,21 +104,21 @@ pumpkinWalkArray.forEach(src => {
         pumpkinJumpImages.push(img);
     });
     const playerWalkArray=[
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (1).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (2).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (3).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (4).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (5).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (6).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (7).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (8).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (9).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (10).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (11).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (12).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (13).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (14).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (15).png"]
+"flatboy/png/Walk (1).png",
+"flatboy/png/Walk (2).png",
+"flatboy/png/Walk (3).png",
+"flatboy/png/Walk (4).png",
+"flatboy/png/Walk (5).png",
+"flatboy/png/Walk (6).png",
+"flatboy/png/Walk (7).png",
+"flatboy/png/Walk (8).png",
+"flatboy/png/Walk (9).png",
+"flatboy/png/Walk (10).png",
+"flatboy/png/Walk (11).png",
+"flatboy/png/Walk (12).png",
+"flatboy/png/Walk (13).png",
+"flatboy/png/Walk (14).png",
+"flatboy/png/Walk (15).png"]
     const playerJumpArray=[
       /*  "https://i.ibb.co/QYdHvRL/Jump-1.png",
         "https://i.ibb.co/b7fGzhb/Jump-2.png",
@@ -132,7 +131,7 @@ pumpkinWalkArray.forEach(src => {
         "https://i.ibb.co/Xxgv0VJ/Jump-9.png",
         "https://i.ibb.co/gShbnyv/Jump-11.png",
         "https://i.ibb.co/BrL8KJs/Jump-10.png",*/
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Jump (2).png"
+        "flatboy/png/Jump (2).png"
         /*"https://i.ibb.co/NNrQLYf/Jump-13.png",
         "https://i.ibb.co/9ZsJtN5/Jump-14.png",
         "https://i.ibb.co/vPjK2Lc/Jump-15.png",*/
