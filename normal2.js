@@ -38,21 +38,21 @@ window.addEventListener("load",function(){
     const ctx=canvas.getContext("2d");
     CANVAS_WIDTH=canvas.width=1000;
     CANVAS_HEIGHT=canvas.height=500;
-    const zombiesArray=["C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (1).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (2).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (3).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (4).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (5).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (6).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (7).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (8).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (9).png",
-        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (10).png"               
-]
+   const zombiesArray=["male/Walk (1).png",
+                        "male/Walk (2).png",
+                        "male/Walk (3).png",
+                        "male/Walk (4).png",
+                        "male/Walk (5).png",
+                        "male/Walk (6).png",
+                        "male/Walk (7).png",
+                        "male/Walk (8).png",
+                        "male/Walk (9).png",
+                        "male/Walk (10).png"               
+    ]
     const zombieImages = [];
     const zombies=[]
     const blockImage=new Image()
-    blockImage.src="C:\\Users\\jd200\\Downloads\\stone.jpg"
+    blockImage.src="stone.jpg"
     const blocks=[]
     let blockPositions=[CANVAS_WIDTH/2-300,CANVAS_WIDTH/2-200,CANVAS_WIDTH/2+130,CANVAS_WIDTH/2+230]
     let zombieWaveInterval=7000;
@@ -61,24 +61,24 @@ window.addEventListener("load",function(){
     let gameFrame = 0;
     let scores=[]
     const playerImage=new Image();
-    playerImage.src="C:\\Users\\jd200\\Downloads\\flatboy\\png\\Idle (1).png"
-    const playerWalkArray=[
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (1).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (2).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (3).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (4).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (5).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (6).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (7).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (8).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (9).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (10).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (11).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (12).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (13).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (14).png",
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (15).png"]
-    const playerJumpArray=[
+    playerImage.src="flatboy/png/Idle (1).png"
+const playerWalkArray=[
+"flatboy/png/Walk (1).png",
+"flatboy/png/Walk (2).png",
+"flatboy/png/Walk (3).png",
+"flatboy/png/Walk (4).png",
+"flatboy/png/Walk (5).png",
+"flatboy/png/Walk (6).png",
+"flatboy/png/Walk (7).png",
+"flatboy/png/Walk (8).png",
+"flatboy/png/Walk (9).png",
+"flatboy/png/Walk (10).png",
+"flatboy/png/Walk (11).png",
+"flatboy/png/Walk (12).png",
+"flatboy/png/Walk (13).png",
+"flatboy/png/Walk (14).png",
+"flatboy/png/Walk (15).png"]
+const playerJumpArray=[
       /*  "https://i.ibb.co/QYdHvRL/Jump-1.png",
         "https://i.ibb.co/b7fGzhb/Jump-2.png",
         "https://i.ibb.co/z8R8YPq/Jump-3.png", 
@@ -90,7 +90,7 @@ window.addEventListener("load",function(){
         "https://i.ibb.co/Xxgv0VJ/Jump-9.png",
         "https://i.ibb.co/gShbnyv/Jump-11.png",
         "https://i.ibb.co/BrL8KJs/Jump-10.png",*/
-         "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Jump (2).png"
+        "flatboy/png/Jump (2).png"
         /*"https://i.ibb.co/NNrQLYf/Jump-13.png",
         "https://i.ibb.co/9ZsJtN5/Jump-14.png",
         "https://i.ibb.co/vPjK2Lc/Jump-15.png",*/
