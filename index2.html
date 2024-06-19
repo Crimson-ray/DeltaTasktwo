@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Zombie Apocalypse: Choose Your Fate</title>
+    <style>
+        body {
+            font-family: 'Creepster', sans-serif;
+            text-align: center;
+            background-image: url("https://t3.ftcdn.net/jpg/05/22/78/82/360_F_522788283_ZXzF9wA3X5CFbtOL3L9JJAmnF6hisGiy.jpg"); /* Replace with your own zombie background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            position: absolute;
+            display:flex;
+            flex-direction: column;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6); 
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Creepster', sans-serif;
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        p {
+            font-family: 'Creepster', sans-serif;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        .mode-button {
+            font-family: 'Creepster', sans-serif;
+            background-color: #dc143c; 
+            color: #fff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+        }
+
+        .mode-button:hover {
+            background-color: #a3001e;
+            box-shadow: 0 0 20px rgb(242, 139, 139);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zombie Apocalypse</h1>
+        <p>Choose your path: Survive or perish...</p>
+        <button class="mode-button" onclick="window.location.href='normal2.html'">
+             NORMAL MODE
+        </button>
+        <button class="mode-button" onclick="window.location.href='hacker2.html'">
+            HACKER MODE
+        </button>
+        <button class="mode-button" onclick="window.location.href=''" disabled="true";>
+            HACKER++ MODE
+        </button>
+    </div>
+</body>
+</html>
