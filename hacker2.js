@@ -39,16 +39,16 @@ window.addEventListener("load",function(){
     const ctx=canvas.getContext("2d");
     CANVAS_WIDTH=canvas.width=1000;
     CANVAS_HEIGHT=canvas.height=500;
-    const zombiesArray=["C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (1).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (2).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (3).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (4).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (5).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (6).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (7).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (8).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (9).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (10).png"               
+    const zombiesArray=["male/Walk (1).png",
+                        "male/Walk (2).png",
+                        "male/Walk (3).png",
+                        "male/Walk (4).png",
+                        "male/Walk (5).png",
+                        "male/Walk (6).png",
+                        "male/Walk (7).png",
+                        "male/Walk (8).png",
+                        "male/Walk (9).png",
+                        "male/Walk (10).png"               
     ]
     const zombieImages = [];
     const zombies=[]
