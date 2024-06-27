@@ -2,7 +2,7 @@
 window.addEventListener("load",function(){
 let username=null
 const inventoryImage = new Image();
-inventoryImage.src = "C:\\Users\\jd200\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-06-19 022632.png";  // Ensure the path is correct
+inventoryImage.src = "Screenshot 2024-06-19 022632.png";  // Ensure the path is correct
 
 let currentItem = null;
 let draggingItem = null;
@@ -225,25 +225,25 @@ function drawInventory() {
     const ctx=canvas.getContext("2d");
     CANVAS_WIDTH=canvas.width=1000;
     CANVAS_HEIGHT=canvas.height=500;
-    const zombiesArray=["C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (1).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (2).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (3).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (4).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (5).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (6).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (7).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (8).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (9).png",
-                        "C:\\Users\\jd200\\Downloads\\zombiefiles\\png\\male\\Walk (10).png"               
+    const zombiesArray=["male/Walk (1).png",
+                        "male/Walk (2).png",
+                        "male/Walk (3).png",
+                        "male/Walk (4).png",
+                        "male/Walk (5).png",
+                        "male/Walk (6).png",
+                        "male/Walk (7).png",
+                        "male/Walk (8).png",
+                        "male/Walk (9).png",
+                        "male/Walk (10).png"               
     ]
     const zombieImages = [];
     const zombies=[]
     const blockImage=new Image()
-    blockImage.src="C:\\Users\\jd200\\Downloads\\stone.jpg"
+    blockImage.src="stone.jpg"
     const mineImage=new Image()
-    mineImage.src="C:\\Users\\jd200\\Downloads\\Mine.png"
+    mineImage.src="Mine.png"
     const trapImage=new Image()
-    trapImage.src="C:\\Users\\jd200\\Downloads\\Trap.png"
+    trapImage.src="Trap.png"
     const blocks=[]
     let zombieWaveInterval=7000;
     let imagesLoaded = 0;
@@ -253,24 +253,23 @@ function drawInventory() {
     const playerImage=new Image();
     const powerups=new Image()
     /*new*/const jetpackImage=new Image();
-    jetpackImage.src="C:\\Users\\jd200\\Downloads\\Design.png"
-    powerups.src="C:\\Users\\jd200\\Downloads\\My first design 9.png"
-    playerImage.src="C:\\Users\\jd200\\Downloads\\flatboy\\png\\Idle (1).png"
+    jetpackImage.src="Design.png"
+    powerups.src="My first design 9.png"
+    playerImage.src="flatboy/png/Idle (1).png"
     const pumpkins=[]
     const pumpkinIdleImage=new Image()
-    pumpkinIdleImage.src="C:\\Users\\jd200\\Downloads\\jackfree\\png\\Idle (1).png"
+    pumpkinIdleImage.src="jackfree/png/Idle (1).png"
     const pumpkinWalkArray=[
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (1).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (2).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (3).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (4).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (5).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (6).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (7).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (8).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (9).png",
-"C:\\Users\\jd200\\Downloads\\jackfree\\png\\Walk (10).png"
-    ]
+"jackfree/png/Walk (1).png",
+"jackfree/png/Walk (2).png",
+"jackfree/png/Walk (3).png",
+"jackfree/png/Walk (4).png",
+"jackfree/png/Walk (5).png",
+"jackfree/png/Walk (6).png",
+"jackfree/png/Walk (7).png",
+"jackfree/png/Walk (8).png",
+"jackfree/png/Walk (9).png",
+"jackfree/png/Walk (10).png" ]
 const pumpkinWalkImages=[]
 pumpkinWalkArray.forEach(src => {
     const img = new Image();
@@ -296,22 +295,23 @@ pumpkinWalkArray.forEach(src => {
         pumpkinJumpImages.push(img);
     });
     const playerWalkArray=[
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (1).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (2).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (3).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (4).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (5).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (6).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (7).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (8).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (9).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (10).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (11).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (12).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (13).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (14).png",
-"C:\\Users\\jd200\\Downloads\\flatboy\\png\\Walk (15).png"]
-    const playerJumpArray=[
+"flatboy/png/Walk (1).png",
+"flatboy/png/Walk (2).png",
+"flatboy/png/Walk (3).png",
+"flatboy/png/Walk (4).png",
+"flatboy/png/Walk (5).png",
+"flatboy/png/Walk (6).png",
+"flatboy/png/Walk (7).png",
+"flatboy/png/Walk (8).png",
+"flatboy/png/Walk (9).png",
+"flatboy/png/Walk (10).png",
+"flatboy/png/Walk (11).png",
+"flatboy/png/Walk (12).png",
+"flatboy/png/Walk (13).png",
+"flatboy/png/Walk (14).png",
+"flatboy/png/Walk (15).png"]
+
+        const playerJumpArray=[
       /*  "https://i.ibb.co/QYdHvRL/Jump-1.png",
         "https://i.ibb.co/b7fGzhb/Jump-2.png",
         "https://i.ibb.co/z8R8YPq/Jump-3.png", 
@@ -323,7 +323,7 @@ pumpkinWalkArray.forEach(src => {
         "https://i.ibb.co/Xxgv0VJ/Jump-9.png",
         "https://i.ibb.co/gShbnyv/Jump-11.png",
         "https://i.ibb.co/BrL8KJs/Jump-10.png",*/
-        "C:\\Users\\jd200\\Downloads\\flatboy\\png\\Jump (2).png"
+        "flatboy/png/Jump (2).png"
         /*"https://i.ibb.co/NNrQLYf/Jump-13.png",
         "https://i.ibb.co/9ZsJtN5/Jump-14.png",
         "https://i.ibb.co/vPjK2Lc/Jump-15.png",*/
@@ -342,7 +342,7 @@ pumpkinWalkArray.forEach(src => {
         playerJumpImages.push(img);
     });
  const explosionImage=new Image()
- explosionImage.src="C:\\Users\\jd200\\Downloads\\My first design 17.png" 
+ explosionImage.src="My first design 17.png" 
     // Input Handler
         class InputHandler {
             constructor() {
@@ -961,7 +961,7 @@ pumpkinWalkArray.forEach(src => {
         zombieImages.push(img);
     });
     const bombImage=new Image()
-    bombImage.src="C:\\Users\\jd200\\Downloads\\My first design 16.png"
+    bombImage.src="My first design 16.png"
     class Bomb {
         constructor() {
             this.height = 40;
